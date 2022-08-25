@@ -1,0 +1,7 @@
+{
+  "name": "tightHope",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
