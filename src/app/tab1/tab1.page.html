@@ -4,16 +4,42 @@
         <strong>ADVENTURER GUIDE</strong>
     </ion-title>
     <ion-title>
-      <small>Em qualquer lugar.</small>
+      <small>NÓS E AMARRAS</small>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
-  <swiper>
-    <ng-template swiperSlide>Slide 1</ng-template>
-    <ng-template swiperSlide>Slide 2</ng-template>
-    <ng-template swiperSlide>Slide 3</ng-template>
+  <swiper [autoplay]="true" [keyboard]="true" [pagination]="true" [scrollbar]="true" [zoom]="true">
+    <ng-template swiperSlide>
+      <img class="slider" src="https://media.elan-yachts.com/img/HomeBanner-Cannes_2022_v3.jpg">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img class="slider" src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/12/israel-rock-climbing-cover.jpg">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img class="slider" src="https://cdn.britannica.com/78/91978-050-B23E016C/balloons-NM-Albuquerque.jpg">
+    </ng-template>
   </swiper>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>INTRODUÇÃO</ion-card-title>
+            <ion-card-subtitle>Introdução ao tema de nós e amarras</ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            Os nós são a base da segurança em várias profissões e atividades.
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!--FONTE DAS IMAGES: http://falcaoperegrino.com.br/desbravadores/nos-e-amarras-->
 </ion-content>

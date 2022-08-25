@@ -1,1 +1,9 @@
+ion-fab {
+  bottom: 10px;
+}
 
+.center-ion-fab {
+  --background: rgba(255,255,255,0);
+  --box-shadow: 0;
+  --close-icon-font-size: 3.5rem;
+}
