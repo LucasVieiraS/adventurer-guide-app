@@ -24,3 +24,20 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@import '~swiper/scss';
+@import '~@ionic/angular/css/ionic-swiper';
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+  font-family:  'Cabin', sans-serif;
+}
+
+ion-toolbar {
+  .head {
+    padding-top: 1rem;
+  }
+  ion-title + ion-title {
+    padding-bottom: .5rem;
+  }
+}
