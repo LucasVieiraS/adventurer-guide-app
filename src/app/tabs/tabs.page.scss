@@ -7,3 +7,12 @@ ion-fab {
   --box-shadow: 0;
   --close-icon-font-size: 3.5rem;
 }
+
+ion-tab-button {
+  scale: .8;
+  ion-fab-button {
+    ion-icon {
+      font-size: 25px;
+    }
+  }
+}

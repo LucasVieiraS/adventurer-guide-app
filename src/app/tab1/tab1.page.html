@@ -7,33 +7,59 @@
       <small>NÓS E AMARRAS</small>
     </ion-title>
   </ion-toolbar>
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
-  <swiper [autoplay]="true" [keyboard]="true" [pagination]="true" [scrollbar]="true" [zoom]="true">
-    <ng-template swiperSlide>
-      <img class="slider" src="https://media.elan-yachts.com/img/HomeBanner-Cannes_2022_v3.jpg">
-    </ng-template>
-    <ng-template swiperSlide>
-      <img class="slider" src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/12/israel-rock-climbing-cover.jpg">
-    </ng-template>
-    <ng-template swiperSlide>
-      <img class="slider" src="https://cdn.britannica.com/78/91978-050-B23E016C/balloons-NM-Albuquerque.jpg">
-    </ng-template>
-  </swiper>
 
   <ion-grid>
     <ion-row>
       <ion-col>
         <ion-card>
           <ion-card-header>
-            <ion-card-title>INTRODUÇÃO</ion-card-title>
+            <ion-card-title><strong>INTRODUÇÃO</strong></ion-card-title>
             <ion-card-subtitle>Introdução ao tema de nós e amarras</ion-card-subtitle>
           </ion-card-header>
 
           <ion-card-content>
             Os nós são a base da segurança em várias profissões e atividades.
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-thumbnail>
+            <img src="https://www.wikihow.com/images/thumb/b/b2/Tie-a-Knot-Step-1-Version-5.jpg/v4-728px-Tie-a-Knot-Step-1-Version-5.jpg.webp" />
+          </ion-thumbnail>
+          <ion-card-header>
+            <ion-card-title>Nó Geral
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Faça uma volta que se pareça com a de uma montanha-russa. A seguir, passe uma das pontas por seu interior. Puxe ambas as extremidades em sentido contrário para apertar o nó.
+
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-thumbnail>
+            <img src="https://www.wikihow.com/images/thumb/b/b2/Tie-a-Knot-Step-1-Version-5.jpg/v4-728px-Tie-a-Knot-Step-1-Version-5.jpg.webp" />
+          </ion-thumbnail>
+          <ion-card-header>
+            <ion-card-title>Nó Lais de Guia
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Essa modalidade faz uma volta fixa na extremidade de uma corda. Ela pode ser fixada sobre um objeto, como um poste, ou passada por um anel ou buraco antes de ser firmado.
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-label>First Accordion</ion-label>
+                </ion-item>
+                <div class="ion-padding" slot="content">
+                  First Content
+                </div>
+              </ion-accordion>
+            </ion-accordion-group>
           </ion-card-content>
         </ion-card>
 
