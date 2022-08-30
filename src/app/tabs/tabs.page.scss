@@ -10,6 +10,8 @@ ion-fab {
 
 ion-tab-button {
   scale: .8;
+  position: relative;
+  right: 0;
   ion-fab-button {
     ion-icon {
       font-size: 25px;

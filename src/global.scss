@@ -37,7 +37,25 @@ ion-toolbar {
   .head {
     padding-top: 1rem;
   }
+  ion-title {
+    text-align: start;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50%;
+  }
   ion-title + ion-title {
-    padding-bottom: .5rem;
+    text-align: start;
+    position: relative;
+    font-size: 1rem;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+  }
+}
+
+ion-thumbnail {
+  img {
+    user-select: none;
   }
 }
