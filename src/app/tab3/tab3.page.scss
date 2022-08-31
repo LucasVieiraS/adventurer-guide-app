@@ -1,3 +1,9 @@
 ion-card-title {
   color: rgb(255, 51, 68);
 }
+
+ion-item {
+  ion-label + ion-label {
+    color: gray;
+  }
+}

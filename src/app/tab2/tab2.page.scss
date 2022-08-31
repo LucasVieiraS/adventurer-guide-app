@@ -7,3 +7,9 @@ ion-label {
 ion-card-title {
   color: rgb(92, 168, 255);
 }
+
+ion-item {
+  ion-label + ion-label {
+    color: gray;
+  }
+}
