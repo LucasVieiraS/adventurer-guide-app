@@ -75,3 +75,11 @@ ion-thumbnail {
     border-radius: 5px;
   }
 }
+
+ion-card-header {
+  ion-thumbnail {
+    img {
+      margin-top: 15px;
+    }
+  }
+}
