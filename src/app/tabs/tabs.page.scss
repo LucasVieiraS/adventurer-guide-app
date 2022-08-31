@@ -6,6 +6,7 @@ ion-fab {
   --background: rgba(255,255,255,0);
   --box-shadow: 0;
   --close-icon-font-size: 3.5rem;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, .5));
 }
 
 ion-tab-button {
@@ -15,6 +16,9 @@ ion-tab-button {
   ion-fab-button {
     ion-icon {
       font-size: 25px;
+      scale: 1.1;
+      vertical-align: 0px;
+      margin-right: 0px;
     }
   }
 }

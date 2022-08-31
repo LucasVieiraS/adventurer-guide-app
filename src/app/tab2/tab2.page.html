@@ -1,35 +1,184 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title class="head">
-        <strong>ADVENTURER GUIDE</strong>
+      <strong>ADVENTURER GUIDE</strong>
     </ion-title>
-    <ion-title>
-      LIBRAS
-    </ion-title>
+    <ion-title> LIBRAS </ion-title>
   </ion-toolbar>
 </ion-header>
 
-
 <ion-content [fullscreen]="true">
-
   <ion-grid>
     <ion-row>
       <ion-col>
-
         <ion-card>
           <ion-card-header>
-            <ion-card-title><strong>INTRODUÇÃO</strong></ion-card-title>
-            <ion-card-subtitle>Introdução ao tema de nós e amarras</ion-card-subtitle>
+            <ion-card-title
+              ><ion-icon name="hand-left"></ion-icon
+              ><strong>INTRODUÇÃO</strong></ion-card-title
+            >
+            <ion-card-subtitle
+              >Introdução à
+              <strong>Língua Brasileira de Sinais</strong></ion-card-subtitle
+            >
           </ion-card-header>
 
           <ion-card-content>
-            Os nós são a base da segurança em várias profissões e atividades.
+            Libras é a língua de sinais ou gestual usada por surdos dos centros
+            urbanos brasileiros e legalmente reconhecida como meio de
+            comunicação e expressão.
           </ion-card-content>
         </ion-card>
 
+        <ion-card>
+          <ion-accordion-group>
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Alfabeto</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/alfabeto.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Números</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/numeros.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Dias da semana</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/dias_semana.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Tempo</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/tempo.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Cores</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/cores.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Perguntas</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/perguntas.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Saúde e segurança</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/saude_seguranca.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Outros sinais úteis</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/outros_sinais_uteis.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Temperatura</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/tema_temperatura.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Surdos</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/tema_surdo2.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Verbo</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://www.ces.org.br/site/images/libras/tema_verbo.jpg"
+                  />
+                </ion-thumbnail>
+              </div>
+            </ion-accordion>
+          </ion-accordion-group>
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
 
-  <!--FONTE DAS IMAGES: http://falcaoperegrino.com.br/desbravadores/nos-e-amarras-->
+  <!--FONTE DAS IMAGES: https://www.ces.org.br/site/vamos-aprender-libras.aspx-->
 </ion-content>

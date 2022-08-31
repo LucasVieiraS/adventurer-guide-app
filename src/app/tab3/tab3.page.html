@@ -1,35 +1,143 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title class="head">
-        <strong>ADVENTURER GUIDE</strong>
+      <strong>ADVENTURER GUIDE</strong>
     </ion-title>
-    <ion-title>
-      PRIMEIROS SOCORROS
-    </ion-title>
+    <ion-title> PRIMEIROS SOCORROS </ion-title>
   </ion-toolbar>
 </ion-header>
 
-
 <ion-content [fullscreen]="true">
-
   <ion-grid>
     <ion-row>
       <ion-col>
-
         <ion-card>
           <ion-card-header>
-            <ion-card-title><strong>INTRODUÇÃO</strong></ion-card-title>
-            <ion-card-subtitle>Introdução ao tema de nós e amarras</ion-card-subtitle>
+            <ion-card-title
+              ><ion-icon name="medkit"></ion-icon
+              ><strong>INTRODUÇÃO</strong></ion-card-title
+            >
+            <ion-card-subtitle
+              >Introdução à
+              <strong>Primeiros Socorros</strong></ion-card-subtitle
+            >
           </ion-card-header>
 
           <ion-card-content>
-            Os nós são a base da segurança em várias profissões e atividades.
+            São intervenções que devem ser feitas de maneira
+            <strong>rápida</strong>, logo após o acidente ou mal súbito, que
+            visam a evitar o agravamento do problema até que um serviço
+            especializado de atendimento chegue até o local.
+          </ion-card-content>
+
+          <ion-card-content>
+            Essas intervenções são muito importantes, pois podem evitar
+            complicações e até mesmo evitar a morte de um indivíduo.
           </ion-card-content>
         </ion-card>
 
+        <ion-card>
+          <ion-accordion-group>
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label color="danger"><span>Emergências</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-card-content>
+                  Antes de qualquer procedimento de primeiro socorro, é
+                  importante que o socorrista tenha em mente a necessidade de:
+                  <ul>
+                    <li><strong>Manter a calma;</strong></li>
+                    <li><strong>Afastar os curiosos;</strong></li>
+                    <li>
+                      <strong
+                        >Garantir que serviço de emergência<br />
+                        seja chamado;</strong
+                      >
+                    </li>
+                  </ul>
+                  <hr />
+                  <tbody>
+                    <tr>
+                      <td colspan="2">
+                        <ion-label color="warning"
+                          >Telefones úteis em caso de emergência</ion-label
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Samu</strong></p>
+                      </td>
+                      <td>
+                        <p>192</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Corpo de Bombeiros</strong></p>
+                      </td>
+                      <td>
+                        <p>193</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Disque-intoxicação</strong></p>
+                      </td>
+                      <td>
+                        <p>0800-722-6001</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Defesa Civil</strong></p>
+                      </td>
+                      <td>
+                        <p>199</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Polícia Militar </strong></p>
+                      </td>
+                      <td>
+                        <p>190</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <hr />
+                  É muito importante salientar que algumas pessoas não estão
+                  preparadas para realizar os primeiros socorros e, portanto, o
+                  ideal é que deixe outra pessoa realizar os procedimentos
+                  adequados e auxiliar de
+                  <strong>outra maneira, como, <ion-label color="primary">buscando socorro.</ion-label></strong>
+                </ion-card-content>
+              </div>
+            </ion-accordion>
+            <ion-accordion>
+              <ion-item slot="header" color="darker">
+                <ion-label><span>Omissão de socorro</span></ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <ion-thumbnail>
+                  <img
+                    src="https://cejil.org/wp-content/uploads/2021/09/Statue-of-justice-1.jpg"
+                  />
+                </ion-thumbnail>
+                <ion-card-content>
+                  A omissão de socorro é considerada <ion-label color="warning">crime</ion-label> em nosso país.
+                  Segundo o <u>Decreto-Lei Nº 2.848</u>, de 7 de dezembro de 1940,
+                  deixar de prestar assistência a uma pessoa em risco pode
+                  resultar em detenção ou multa.
+                </ion-card-content>
+              </div>
+            </ion-accordion>
+          </ion-accordion-group>
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
 
-  <!--FONTE DAS IMAGES: http://falcaoperegrino.com.br/desbravadores/nos-e-amarras-->
+  <!--FONTE DAS IMAGES: https://brasilescola.uol.com.br/saude/primeiros-socorros.htm#-->
 </ion-content>
