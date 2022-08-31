@@ -21,3 +21,9 @@ ion-thumbnail {
 ion-accordion {
   --background-color: rgba(255, 255, 255, 1)
 }
+
+ion-item {
+  ion-label + ion-label {
+    color: gray;
+  }
+}
