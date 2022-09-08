@@ -38,6 +38,8 @@ ion-toolbar {
     padding-top: 1rem;
   }
   ion-title {
+    padding: 0;
+    margin-left: 1rem;
     text-align: start;
     position: relative;
     top: 0;
@@ -76,6 +78,12 @@ ion-thumbnail {
   }
 }
 
+ion-card-title {
+  strong {
+    font-size: 1.1rem;
+  }
+}
+
 ion-card-header {
   ion-thumbnail {
     img {
@@ -87,5 +95,13 @@ ion-card-header {
 ion-toolbar {
   ion-icon {
     font-size: 2.5rem;
+  }
+}
+
+ion-item {
+  ion-label {
+    span {
+      font-size: 1rem;
+    }
   }
 }
